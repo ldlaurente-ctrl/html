@@ -1,0 +1,89 @@
+</DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	content="width"=device-width, intial-scale=1.0">
+	<title>Dave Webpage</title>
+	<style>
+	body {
+	   font-family: Arial,san-serif;
+	   backgorund-color: #f0f0ff;
+	   margin: 0
+	   padding: 0
+	}
+	header {
+	   background-color: #3a73f8;
+	   color: white
+	   text-algin: center;
+	   padding: 20px 10px;
+	}
+	header samll {
+	   display: block;
+	   font-size: 0.8em;
+	   margin-top: 5px;
+	   color: #c5d2ff	
+	}
+	section {
+	   padding: 15px 10px;
+	   margin: 10px;
+	}
+	#introduction {
+	   background-color: #f9f9fc
+	   border-bottom: 1px solid #ddd;
+	}
+	#about {
+	   background-color: #f9f9fc
+	   border-bottom: 1px solid #ddd;
+	}
+ 	#favorites {
+	   background-color: #f9f9fc
+	   padding: 15px 20px;
+	   margin; 10px;
+	}
+	#favorites ul {
+	   margin-top: 5px
+	}
+	footer {
+	   background-color: #9aa6b1;
+	   color: white
+	   text-algin: center
+	   padding: 15px 10px;
+	   margin-top: 20px;
+	}
+	</style>
+	</head>
+	<body>
+	    <header>	
+		<h1>Welcome to Dave Webpage</h1>
+		<small>learning html step by step</small>
+	    </header>
+	    
+	    <section id="introduction">
+		<h3>Introduction</h3>
+		<p>This webpage own by dave, it show how to use basic html element and below styles.You will learn how to add colors, padding, and text alignment.</p>
+	    </section>
+
+	    <section id="about'>	
+		<h3>About Me</h3>
+		<p>My name is Dave Laurente.I am learing web development.I like to explore new things about computers and coding.</p>
+	    </section>
+
+	    <section id="favorites">
+		<h4>My Favorites</h4>	
+		<p>Here are some of my favorites] things:</p>
+		<ul>
+		   <li>Favorite Color: blue</li>
+		   <li>Favorite Fruit: Mango</li>
+		   <li>Favorite Hobby: coding</li>
+		   <li>Favorite Student: james</li>
+		</ul>
+	    </section>
+	
+	    <footer>
+		<p><strong>Contact Me</strong></p>
+		<p>Email: laurencedave901@email.com</p>
+		<p>Phone: 09945862610<p/>
+	   </footer>
+	</body>
+	</html>
